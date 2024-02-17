@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Food Recipe App</string>
     <string name="get_started">Get Started</string>
+    <string name="all_recipies">All Recipies</string>
+    <string name="disk_name">Disk Name</string>
+    <string name="category_name">Category name</string>
 </resources>

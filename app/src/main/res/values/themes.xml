@@ -2,7 +2,15 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.FoodRecipeApp" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+         <item name="colorPrimary">@color/yellow</item>
+         <item name="colorPrimaryDark">@color/white</item>
+         <item name="colorAccent">@color/brown</item>
+    </style>
+
+    <style name="ThemeOverlay.Search" parent="Theme.FoodRecipeApp">
+        <!-- Customize your light theme here. -->
+         <item name="android:editTextColor">@color/black</item>
+         <item name="android:textColorHint">@color/hintTextColor</item>
     </style>
 
     <style name="Theme.FoodRecipeApp" parent="Base.Theme.FoodRecipeApp" />
