@@ -25,6 +25,6 @@ class SubCategoryAdapter : RecyclerView.Adapter<SubCategoryAdapter.RecipeViewHol
     override fun getItemCount(): Int = arrSubCategory.size
 
     override fun onBindViewHolder(holder: RecipeViewHolder, position: Int) {
-        holder.itemView.findViewById<TextView>(R.id.tv_dish).text = arrSubCategory[position].dishName
+        holder.itemView.findViewById<TextView>(R.id.tv_dish_name).text = arrSubCategory[position].dishName
     }
 }

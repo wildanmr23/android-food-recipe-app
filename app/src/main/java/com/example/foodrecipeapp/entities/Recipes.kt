@@ -11,6 +11,6 @@ data class Recipes(
     var id: Int,
 
     @ColumnInfo(name = "dishName")
-    val  dishName: String
+    val  dishName: String? = null
 
 ): Serializable
